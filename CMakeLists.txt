@@ -9,7 +9,7 @@ option(CHLOVER_BUILD_EDITOR "Whether to build the editor or not" ON)
 
 if (CHLOVER_BUILD_EDITOR AND NOT CHLOVER_BUILD_ENGINE)
     message(FATAL_ERROR "The engine must be built for the editor to be buildable")
-    return
+    return()
 endif()
 
 if (CHLOVER_BUILD_ENGINE)
