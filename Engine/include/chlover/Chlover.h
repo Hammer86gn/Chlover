@@ -1,4 +1,0 @@
-#ifndef CHLOVER_CHLOVER_H
-#define CHLOVER_CHLOVER_H
-
-#endif
