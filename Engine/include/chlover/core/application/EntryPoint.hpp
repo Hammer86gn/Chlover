@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include "chlover/application/Application.hpp"
+#include "Application.hpp"
 
 extern chlover::Application* chlover::createApplication( int argc, char** argv );
 
